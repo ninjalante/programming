@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <link href="./style.css" type="text/CSS" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+    <title>What Christmas Movie Should I Watch?</title>
+ </head>
+ <body>
+    <header id="landingPage">
+      <br><h1 class="landing">What Christmas Movie Should I Watch?</h1>
+      <h2 class="landing">Looking for a good Christmas movie?</h2>
+      <h2 class="landing">Looking for a <em>bad</em> Christmas movie?</h2>
+      <h2 class="landing">You're in the right place.</h2>
+      <button id="goToBooleans" onclick="clickTheButton()">Find a Christmas movie</button>
+    </header>
+    <main id="movieChooser">
+      <h1>Select the elements you want to see in a Christmas movie.</h1>
+     <div id="booleans" class="grid-container">
+       <div class="grid-item">
+          <input type="checkbox" id="romance" name="romance" value="romance" onclick="chooseRomance()"></input>
+          <label for="romance">A love story</label></div>
+       <div class="grid-item">
+          <input type="checkbox" id="musical" name="musical" value="musical" onclick="chooseMusical()"></input>
+          <label for="musical">Singing and dancing</label></div>
+       <div class="grid-item">
+          <input type="checkbox" id="mistakenId" name="mistakenId" value="mistakenId" onclick="chooseMistakenId()"></input>
+          <label for="mistakenId">A case of mistaken identity</label></div>
+       <div class="grid-item">
+          <input type="checkbox" id="charmingInn" name="charmingInn" value="charmingInn" onclick="chooseInn()"></input>
+          <label for="charmingInn">A charming rural inn or bakery</label></div>
+       <div class="grid-item">
+            <input type="checkbox" id="royal" name="royal" value="royal" onclick="chooseRoyal()"></input>
+            <label for="royal">A royal fairy tale</label>
+        </div>
+        <div class="grid-item">
+            <input type="checkbox" id="familyIsNumber1" name="familyIsNumber1" value="familyIsNumber1" onclick="chooseFamily()"></input>
+            <label for="familyIsNumber1">A lesson about the importance of family</label>
+        </div>
+        <div class="grid-item">
+            <input type="checkbox" id="country" name="country" value="country" onclick="chooseCountry()"></input>
+            <label for="country">A city fish out of water</label>
+        </div>
+        <div class="grid-item">
+            <input type="checkbox" id="magic" name="magic" value="magic" onclick="chooseMagic()"></input>
+            <label for="magic">Christmas magic</label>
+        </div>
+        <div class="grid-item">
+            <input type="checkbox" id="famousActor" name="famousActor" value="famousActor" onclick="chooseFamousActor()"></input>
+            <label for="famousActor">A well-known but aging actor</label>
+        </div>
+        <div class="grid-item">
+            <input type="checkbox" id="childStar" name="childStar" value="childStar" onclick="chooseChildStar()"></input>
+            <label for="childStar">A former child star grown up OR a grown-up star as a child</label>
+        </div>
+        <div class="grid-item">
+            <input type="checkbox" id="familyFriendly" name="familyFriendly" value="familyFriendly" onclick="chooseFamilyFriendly()"></input>
+            <label for="familyFriendly">A story the whole family can enjoy</label>
+        </div>
+      </div><br>
+      <button id="makeChoice" onclick="chooseMovie()">Find me a Christmas movie!</button>
+      <button id="perfectMovie" onclick="choosePerfectMovie()">Nothing but the best for me</button>
+      <button id="worstMovie" onclick="chooseWorstMovie()">GIVE ME YOUR WORST.</button>
+    </main><br>
+ <main id="movieRec">
+    <div id="introToMovies">
+    <!-- movie intro piece here -->
+    </div>
+    <section id="movieRecommendations" class="movies">
+        <!-- movie titles here -->
+    </section>
+    <br><button id="worstButton" onclick="oneMore()">I've seen that one.</button>
+    <br><button onclick="window.location.reload()">Start over</button>
+<footer>
+    <br><br><aside id="more">Find out more! This <a href="./allmovies.html">alphabetical list</a> includes all the movies I've seen, with scores, summaries, comments, and stars!</aside>
+    <br><span id="contact"><a href="http://ninjalante.github.io/resume.html">Like what you see</a>? I'm open to work! @ me: <a href="mailto:gretacwink@gmail.com">gretacwink@gmail.com</a></span>
+</footer>
+</main>
+
+ 
+    <script src="./movie_objects.js"></script>
+    <script src="./moviechooser.js"></script>
+ </body>
+ </html>
