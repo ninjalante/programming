@@ -13,4 +13,6 @@ This is the digitized version of a simple dice game we've played at bars all ove
 What Wedding Movie Should I Watch?
 I don't *love* wedding movies, but I sure have seen a lot of them. This Choose-Your-Own-Adventure-esque path figures out what kind of movie you're in the mood for.
 
+This project is also available RECURSIVELY, with a tree structure! That code is much more impressive, you should look at that one.
+
 Enjoy!
