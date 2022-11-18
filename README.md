@@ -7,6 +7,9 @@ I LOVE Christmas movies, and so if you have any preferences, I can recommend the
 Available online:
 https://ninjalante.github.io/Xmas_movie_chooser/index.html
 
+Make Your Own Christmas Movie
+Maybe you want to write your own! Turn on the TV and see what Hallmark has to offer this year as it randomly generates characters, conflicts, and holiday movie tropes.
+
 Dice Game - 2 players
 This is the digitized version of a simple dice game we've played at bars all over Asia. And now you can play it wherever you want!
 
