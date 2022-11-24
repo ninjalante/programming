@@ -26,8 +26,8 @@ substance = wm.Question("\nI don't mean to assume, but most wedding movies aren'
 wedding = wm.Question("\nPerfect! One question left. Choose your leading man.\nA) Matthew McConaghey\nB) James Marsden\nC) Neither\n", "Easy breezy shenanigans")
 drama = wm.Question("\nDo you want to indulge in some really obscene opulance?\nA) Yes, smother me with capitalist fantasy\nB) No, I want to be reminded how poor I am\n", "Here for the drama")
 obscene = wm.Question("\nLast question. Are you...\nA) a Carrie\nB) a Samantha\nC) a Miranda\nD) a Charlotte\n", "Obscene capitalist fantasy please")
-nostalgic_or_modern = wm.Question("\nI've got some ideas. Do you want...\nA) a nostalgic classic\nB) something more modern", "Two protagonists")
-cynical = wm.Question("\nLast question! Are you feeling...\nA) a somewhat cynical, but ultimately sweet, look at new relationships\nB) 100% bonkers fairy tale", "Something new")
+nostalgic_or_modern = wm.Question("\nI've got some ideas. Do you want...\nA) a nostalgic classic\nB) something more modern\n", "Two protagonists")
+cynical = wm.Question("\nLast question! Are you feeling...\nA) a somewhat cynical, but ultimately sweet, look at new relationships\nB) 100% bonkers fairy tale\n", "Something new")
 hidden_gem = wm.Question("\nI think I've got it. Tell me one more thing...\nA) I want an instantly recognizable classic\nB) I want a hidden gem that I can impress my snootier friends with\n", "Ensemble cast")
 italian_or_indian = wm.Question("\nThis last question should be easy. You're about to watch a wedding movie with your friends or family. What take-out do you get?\nA) Italian\nB) Indian\n", "Something new")
 
@@ -149,6 +149,9 @@ def find_a_movie(movie_tree, path=[]):
     return reveal_movie(movie_tree, path)
   #recursive case
   answer = movie_tree.get_input()
+  if not hasattr(movie_tree, answer):
+    print("\nPlease enter a valid choice!\n")
+    answer = movie_tree.get_input()
   if answer.upper() == 'A':
     path += [movie_tree.a.name]
     movie_tree = movie_tree.a
@@ -160,6 +163,10 @@ def find_a_movie(movie_tree, path=[]):
   if answer.upper() == 'C':
     path += [movie_tree.c.name]
     movie_tree = movie_tree.c
+    return find_a_movie(movie_tree, path)
+  if answer.upper() == 'D':
+    path += [movie_tree.d.name]
+    movie_tree = movie_tree.d
     return find_a_movie(movie_tree, path)
 
 start = input('Are you ready for wedding season?\n')
