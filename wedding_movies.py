@@ -7,10 +7,6 @@ class Question:
   def __init__(self, value, name):
     self.value = value
     self.name = name
-    self.a = None
-    self.b = None
-    self.c = None
-    self.d = None
 
   def get_input(self):
     return input(self.value)
@@ -60,3 +56,23 @@ naked = Wedding_Movie("Naked", {"summary": "A cold-footed groom finds himself na
 week_of = Wedding_Movie("The Week Of", {"summary": "Two family patriarchs find themselves at odds in the seven days leading up to the marriage of their children.", "rated": "PG-13"})
 
 seven_brides = Wedding_Movie("Seven Brides for Seven Brothers", {"summary": "Seven brothers from a rural family travel to town to kidnap one bride for each of them.", "rated": "PG"})
+
+in_laws = Wedding_Movie("The In-Laws", {"summary": "A risk-adverse father of the bride is whisked away on a dangerous adventure by an international spy -- the father of the groom.", "rated": "PG-13"})
+
+rachel = Wedding_Movie("Rachel Getting Married", {"summary": "A young woman struggling with substance abuse problems reunites with her family for her sister's wedding.", "rated": "R"})
+
+marry_me = Wedding_Movie("Marry Me", {"summary": "After a pop star is left at the altar during a live concert, she impulsively marries a single dad in the audience.", "rated": "PG-13"})
+
+four_ws_1f = Wedding_Movie("Four Weddings and a Funeral", {"summary": "Criss-crossing lives turn to love over the course of five events.", "rated": "R"})
+
+destination = Wedding_Movie("Destination Wedding", {"summary": "Two talkative cynics meet on their way to a destination wedding, only to find that the one thing they both like is each other.", "rated": "R"})
+
+my_boy = Wedding_Movie("That's My Boy", {"summary": "A young groom finds his wedding day complicated by the reappearance of his dad, who raised him when he was only a teen.", "rated": "R"})
+
+princess = Wedding_Movie("The Princess Bride", {"summary": "A kooky grandfather reads his favorite book to his cynical grandson while he's sick in bed."})
+
+monsoon = Wedding_Movie("Monsoon Wedding", {"summary": "A large Indian family struggles personally and financially as their eldest daughter prepares to enter an arranged marriage.", "rated": "R"})
+
+wedding_season = Wedding_Movie("Wedding Season", {"summary": "A young woman under pressure from her family to get married makes a deal with an eligible bachelor to be each others' dates for the upcoming wedding season.", "rated": "PG"})
+
+you_people = Wedding_Movie("You People", {"summary": "A white Jewish man and a Black Muslim woman fall in love, but planning a wedding - with THEIR families??? - feels impossible.", "rated": "R"})
