@@ -76,3 +76,5 @@ monsoon = Wedding_Movie("Monsoon Wedding", {"summary": "A large Indian family st
 wedding_season = Wedding_Movie("Wedding Season", {"summary": "A young woman under pressure from her family to get married makes a deal with an eligible bachelor to be each others' dates for the upcoming wedding season.", "rated": "PG"})
 
 you_people = Wedding_Movie("You People", {"summary": "A white Jewish man and a Black Muslim woman fall in love, but planning a wedding - with THEIR families??? - feels impossible.", "rated": "R"})
+
+palm_springs = Wedding_Movie("Palm Springs", {"summary": "A carefree young man happily seduces the maid of honor at a wedding - but when she follows him into a desert cave, she's pulled into his time loop.", "rated": "R"})
