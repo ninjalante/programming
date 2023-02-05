@@ -15,7 +15,7 @@ sandler = wm.Question("\nDo you like Adam Sandler?\nA) Love Adam Sandler\nB) Who
 nineties = wm.Question("\nWow, really? Huh. Okay. Then, uh...\nA) 1990s Adam Sandler\nB) 2010s Adam Sandler?\n", 'I Stan-dler Adam Sandler')
 mature_sandler = wm.Question("\nAmazingly, you've got two options. Do you want to see Adam Sandler...\nA) At like a mature and concerned father\nB) Act like an immature and unconcerned father\n", "2010s Adam Sandler")
 timeline = wm.Question("\nAre you a fan of time loops and alternate timelines?\nA) yes\nB) no\n", 'Not  A-damn Sandler')
-time = wm.Question("\nTime stuff, excellent. Last question:\nA) a time loop a la Groundhog Day?\nB) alternate timelines a la Sliding Doors?\n", 'Timeline wackiness')
+time = wm.Question("\nTime stuff, excellent.\nA) a time loop a la Groundhog Day?\nB) alternate timelines a la Sliding Doors?\n", 'Timeline wackiness')
 stiller = wm.Question("\nWho do you prefer as a leading man?\nA) Ben Stiller\nB) Ryan Reynolds\n", 'Normal time stuff please')
 female_protag = wm.Question("\nFemale leads it is.\nDo you want...\nA) a family-friendly movie\nB) something naughty for me and the girls\n", 'Female protagonist')
 f_f_f = wm.Question("\nCool. You have some good options.\nAre you looking for...\nA) something nostalgic\nB) something fresh and new!\n", 'Family-friendly')
@@ -29,6 +29,7 @@ obscene = wm.Question("\nLast question. Are you...\nA) a Carrie\nB) a Samantha\n
 nostalgic_or_modern = wm.Question("\nI've got some ideas. Do you want...\nA) a nostalgic classic\nB) something more modern\n", "Two protagonists")
 cynical = wm.Question("\nAlmost done! Are you feeling...\nA) a somewhat cynical, but ultimately sweet, and certainly more realistic, look at new relationships\nB) 100% bonkers fairy tale\n", "Something new")
 cringe = wm.Question("\nI think I've got something for you, but tell me, do you like extremely relevant cringe comedy?\nA) no thank you\nB) BRING ON THE CRINGE!\n", "More realistic")
+how_realistic = wm.Question("\nLow cringe, ok. But like, HOW realistic?\nA) Mostly real\nB) I wouldn't mind some timeline wackiness\n", "No cringe please")
 hidden_gem = wm.Question("\nI think I've got it. Tell me one more thing...\nA) I want an instantly recognizable classic\nB) I want a hidden gem that I can impress my snootier friends with\n", "Ensemble cast")
 italian_or_indian = wm.Question("\nThis last question should be easy. You're about to watch a wedding movie with your friends or family. What take-out do you get?\nA) Italian\nB) Indian\n", "Something new")
 
@@ -46,8 +47,11 @@ hidden_gem.b.name = "Something lesser-known"
 nostalgic_or_modern.a = wm.princess
 nostalgic_or_modern.b = cynical
 cynical.a = cringe
-cringe.a = wm.destination
-cringe.a.name = "I want to feel a positive feeling"
+cringe.a = how_realistic
+how_realistic.a = wm.destination
+how_realistic.a.name = "Mostly realistic"
+how_realistic.b = wm.palm_springs
+how_realistic.b.name = "I'm okay with some wackiness"
 cringe.b = wm.you_people
 cringe.b.name = "I want to curl into a ball from cringing so hard"
 cynical.b = wm.marry_me
@@ -180,3 +184,5 @@ while start.upper() == 'YES':
   print(test)
   start = input('Do you want to find another movie?\n')
 print("Bye bye!")
+
+  
