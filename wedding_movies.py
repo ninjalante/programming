@@ -11,6 +11,7 @@ class Question:
   def get_input(self):
     return input(self.value)
 
+
 dresses27 = Wedding_Movie("27 Dresses", {"summary": "A young woman who's been a bridesmaid 27 times is forced to serve as maid of honor as her capricious little sister marries the man she's in love with.", "rated": "PG-13"})
 
 satc = Wedding_Movie("Sex and the City: The Movie", {"summary": "When Carrie suffers a devastating emotional setback, Charlotte, Miranda, and Samantha are there to help her write a book about it.", "rated": "R"})
@@ -69,7 +70,7 @@ destination = Wedding_Movie("Destination Wedding", {"summary": "Two talkative cy
 
 my_boy = Wedding_Movie("That's My Boy", {"summary": "A young groom finds his wedding day complicated by the reappearance of his dad, who raised him when he was only a teen.", "rated": "R"})
 
-princess = Wedding_Movie("The Princess Bride", {"summary": "A kooky grandfather reads his favorite book to his cynical grandson while he's sick in bed."})
+princess = Wedding_Movie("The Princess Bride", {"summary": "A kooky grandfather reads his favorite book to his cynical grandson while he's sick in bed.", "rated": "PG"})
 
 monsoon = Wedding_Movie("Monsoon Wedding", {"summary": "A large Indian family struggles personally and financially as their eldest daughter prepares to enter an arranged marriage.", "rated": "R"})
 
@@ -78,3 +79,15 @@ wedding_season = Wedding_Movie("Wedding Season", {"summary": "A young woman unde
 you_people = Wedding_Movie("You People", {"summary": "A white Jewish man and a Black Muslim woman fall in love, but planning a wedding - with THEIR families??? - feels impossible.", "rated": "R"})
 
 palm_springs = Wedding_Movie("Palm Springs", {"summary": "A carefree young man happily seduces the maid of honor at a wedding - but when she follows him into a desert cave, she's pulled into his time loop.", "rated": "R"})
+
+ticket2paradise = Wedding_Movie("Ticket to Paradise", {"summary": "A long-divorced couple reunite at their daughter's destination wedding with the shared goal of getting her to call it off.", "rated": "PG-13"})
+
+rough_night = Wedding_Movie("Rough Night", {"summary": "A bride-to-be's worlds collide when she brings together her best friends for a wild party -- and manslaughter.", "rated": "R"})
+
+bachelorette = Wedding_Movie("Bachelorette", {"summary": "Three former high school mean girls are drafted as bridesmaids for someone they used to bully.", "rated": "R"})
+
+corpse_bride = Wedding_Movie("Corpse Bride", {"summary": "On the eve of his wedding, a hapless groom accidentally reanimates a long-dead spinster who insists they are now man and wife.", "rated": "PG"})
+
+people_we_hate = Wedding_Movie("People We Hate at the Wedding", {"summary": "Two bickering siblings make things worse in the week before their half-sister's fabulous wedding.", "rated": "R"})
+
+shotgun = Wedding_Movie("Shotgun Wedding", {"summary": "A couple's perfect destination wedding is ruined when pirates (yes, PIRATES) take the guests hostage.", "rated": "R"})
