@@ -91,3 +91,27 @@ corpse_bride = Wedding_Movie("Corpse Bride", {"summary": "On the eve of his wedd
 people_we_hate = Wedding_Movie("People We Hate at the Wedding", {"summary": "Two bickering siblings make things worse in the week before their half-sister's fabulous wedding.", "rated": "R"})
 
 shotgun = Wedding_Movie("Shotgun Wedding", {"summary": "A couple's perfect destination wedding is ruined when pirates (yes, PIRATES) take the guests hostage.", "rated": "R"})
+
+best_man = Wedding_Movie("The Best Man", {"summary": "A best man complicates an upcoming wedding when it's discovered that his new book is based on the life of the bride.", "rated": "R"})
+
+plus_one = Wedding_Movie("Plus One", {"summary": "Two college friends - one single, one reeling from a breakup - agree to be each other's dates for a summer of college friends' weddings.", "rated": "R"})
+
+something_borrowed = Wedding_Movie("Something Borrowed", {"summary": "A timid young woman regrets letting her best friend swoop in on the guy she likes...but when her friends become engaged, her feelings get stronger.", "rated": "PG-13"})
+
+runaway = Wedding_Movie("Runaway Bride", {"summary": "A journalist who's fired for printing a story about a three-time altar-dumping bride hunts the woman down to coax out her real story and get his job back.", "rated": "PG"})
+
+sideways = Wedding_Movie("Sideways", {"summary": "A former soap opera star is taken on a picturesque trip through wine country for their stag do, but the groom's behavior complicates his friend's delicate plans.", "rated": "R"})
+
+made_honor = Wedding_Movie("Made of Honor", {"summary": "A commitment-phobic man realizes his feelings for his female best friend after she gets engaged.", "rated": "PG-13"})
+
+bride_wars = Wedding_Movie("Bride Wars", {"summary": "Two lifelong best friends schedule their perfect weddings at the Plaza on the same day at the same time - and set out to ruin each other's big day.", "rated": "PG"})
+
+best_friends = Wedding_Movie("My Best Friend's Wedding", {"summary": "When a young woman discovers her 'marriage deal' with her best friend won't go through because he recently got engaged to a young, beautiful woman, she sets out to destroy their relationship.", "rated": "PG-13"})
+
+wedding_date = Wedding_Movie("The Wedding Date", {"summary": "Desperate to impress her ex-fiance at her sister's wedding, a young woman hires a handsome and confident escort to pose as her boyfriend.", "rated": "PG-13"})
+
+polite_society = Wedding_Movie("Polite Society", {"summary": "A young woman obsessed with martial arts movies sets out to 'rescue' her sister from her upcoming marriage.", "rated": "PG-13"})
+
+because = Wedding_Movie("Because I Said So", {"summary": "A divorced mom of three daughters worries that her youngest doesn't take relationships seriously enough, and secretly sets her up with a series of men she's personally vetted.", "rated": "PG-13"})
+
+monster = Wedding_Movie("Monster-in-Law", {"summary": "A wealthy mother recovering from a mental breakdown targets the young woman that her son brings home to introduce to her.", "rated": "PG-13"})
